@@ -1,7 +1,8 @@
-/*$(document).ready(function(){
-    test();
+$(document).ready(function(){
+    prueba1();
 });
 
+/*
 function test() {
     console.log("Hola")
 }*/
@@ -29,3 +30,13 @@ $("#imagen").click(function(){
     $("#texto").text("Imagen");
     console.log("Imagen");
 });
+
+function prueba1() {
+    var x = "Ola k ase?";
+    console.log(x);
+    prueba2(x);
+}
+
+function prueba2(jorge) {
+    console.log(jorge);
+}
